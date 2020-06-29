@@ -1,1 +1,1 @@
-# -Intel-Edge-AI-for-IoT-Developers
+# Intel-Edge-AI-for-IoT-Developers
