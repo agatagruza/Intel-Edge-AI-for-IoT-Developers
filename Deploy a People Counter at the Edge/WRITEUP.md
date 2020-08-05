@@ -1,5 +1,7 @@
 # Project Write-Up
 
+Starter code available at https://github.com/agatagruza/nd131-openvino-fundamentals-project-starter
+
 You can use this document as a template for providing your project write-up. However, if you
 have a different format you prefer, feel free to use it as long as you answer all required
 questions.
