@@ -27,7 +27,7 @@ If you have used Async Inference in your code, benchmark the results and explain
 There will be certain situations that will break your inference flow. For instance, lighting changes or multiple people in the frame. Explain some of the edge cases you encountered in your project and how you solved them to make your project more robust.
 
 ## Debug
-ìRetrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:852)'),)':î
+‚ÄúRetrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:852)'),)':‚Äù
 It appears the issue is a corporate proxy/firewall/mitm-box is not allowing traffic to pypi.org and/or files.pythonhosted.org.
 Needed to use below command for each of the OpenVino dependencies installation:
 python3 -m pip install --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org <desired_package>
